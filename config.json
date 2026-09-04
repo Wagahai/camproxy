@@ -1,0 +1,30 @@
+{
+  "listen": ":9001",
+  "token": "",
+  "cache_ttl": "3s",
+  "timeout": "8s",
+  "quality": 70,
+  "cameras": [
+    {
+      "name": "cam1",
+      "label": "Camera 1",
+      "url": "http://192.168.1.5/cgi-bin/snapshot.cgi?channel=1",
+      "user": "admin",
+      "pass": "password"
+    },
+    {
+      "name": "cam2",
+      "label": "Camera 2",
+      "url": "http://192.168.1.5/cgi-bin/snapshot.cgi?channel=2",
+      "user": "admin",
+      "pass": "password"
+    },
+    {
+      "name": "cam3",
+      "label": "Camera 3",
+      "url": "http://192.168.1.5/cgi-bin/snapshot.cgi?channel=3",
+      "user": "admin",
+      "pass": "password"
+    }
+  ]
+}
